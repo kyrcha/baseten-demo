@@ -2,8 +2,8 @@ from sklearn.base import TransformerMixin
 from typing import Tuple
 import numpy as np
 
-from models.role import Role
-from models.builder import Builder
+from model.models.role import Role
+from model.models.builder import Builder
 
 class QualifiedBuilder(Role):
     qualified: bool
